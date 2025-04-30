@@ -1,0 +1,107 @@
+[
+    {
+      "product_id": "heater_001",
+      "product_name": "Heater",
+      "sale_date": "2025-04-25",
+      "quantity_sold": 10,
+      "price": 45.00
+    },
+    {
+      "product_id": "ac_002",
+      "product_name": "Air Conditioner",
+      "sale_date": "2025-04-25",
+      "quantity_sold": 5,
+      "price": 120.00
+    },
+    {
+      "product_id": "umbrella_003",
+      "product_name": "Umbrella",
+      "sale_date": "2025-04-25",
+      "quantity_sold": 12,
+      "price": 15.00
+    },
+    {
+      "product_id": "cooler_004",
+      "product_name": "Water Cooler",
+      "sale_date": "2025-04-26",
+      "quantity_sold": 8,
+      "price": 80.00
+    },
+    {
+      "product_id": "raincoat_005",
+      "product_name": "Raincoat",
+      "sale_date": "2025-04-26",
+      "quantity_sold": 7,
+      "price": 30.00
+    },
+    {
+      "product_id": "sunscreen_006",
+      "product_name": "Sunscreen",
+      "sale_date": "2025-04-26",
+      "quantity_sold": 15,
+      "price": 12.00
+    },
+    {
+      "product_id": "woolen_scarf_007",
+      "product_name": "Woolen Scarf",
+      "sale_date": "2025-04-27",
+      "quantity_sold": 4,
+      "price": 25.00
+    },
+    {
+      "product_id": "shorts_008",
+      "product_name": "Shorts",
+      "sale_date": "2025-04-27",
+      "quantity_sold": 20,
+      "price": 20.00
+    },
+    {
+      "product_id": "gloves_009",
+      "product_name": "Gloves",
+      "sale_date": "2025-04-27",
+      "quantity_sold": 6,
+      "price": 18.00
+    },
+    {
+      "product_id": "sunglasses_010",
+      "product_name": "Sunglasses",
+      "sale_date": "2025-04-28",
+      "quantity_sold": 18,
+      "price": 35.00
+    },
+    {
+      "product_id": "sandals_011",
+      "product_name": "Sandals",
+      "sale_date": "2025-04-28",
+      "quantity_sold": 22,
+      "price": 28.00
+    },
+    {
+      "product_id": "beanie_012",
+      "product_name": "Beanie",
+      "sale_date": "2025-04-28",
+      "quantity_sold": 5,
+      "price": 15.00
+    },
+    {
+      "product_id": "insect_repellent_013",
+      "product_name": "Insect Repellent",
+      "sale_date": "2025-04-29",
+      "quantity_sold": 14,
+      "price": 10.00
+    },
+    {
+      "product_id": "towel_014",
+      "product_name": "Towel",
+      "sale_date": "2025-04-29",
+      "quantity_sold": 25,
+      "price": 22.00
+    },
+    {
+      "product_id": "thermos_015",
+      "product_name": "Thermos",
+      "sale_date": "2025-04-29",
+      "quantity_sold": 9,
+      "price": 38.00
+    }
+  ]
