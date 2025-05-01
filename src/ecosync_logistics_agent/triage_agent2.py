@@ -108,11 +108,6 @@ async def main():
         weather_agent = await create_weather_agent(weather_mcp_server)
         strike_agent = await create_routing_agent()
 
-        handoffs = [
-            {"name": "ForecastingAgent", "agent": weather_agent, "keywords": ["weather", "temperature", "forecast", "city", "demand", "need", "buy", "umbrella", "heater", "ac"]},
-            {"name": "Intelligent_Routing_Agent", "agent": strike_agent, "keywords": ["strike", "protest", "news", "event", "date", "route", "traffic", "petrol", "journey", "delivery", "shipment"]},
-        ]
-
         while True:
             user_query = input("Enter your query (or type 'quit' to exit): ").strip()
             if user_query.lower() == 'quit':
@@ -121,19 +116,6 @@ async def main():
             triage_result = await Runner.run(triage_agent, user_query, run_config=config)
             print(f"\nTriage Agent says: {triage_result.final_output}")
 
-            handled = False
-            for handoff_info in handoffs:
-                if any(keyword in user_query.lower() for keyword in handoff_info["keywords"]):
-                    print(f"Forwarding to {handoff_info['name']}...")
-                    result = await Runner.run(handoff_info["agent"], user_query, run_config=config)
-                    # Print the result from the delegated agent:
-                    print(f"{handoff_info['name']} Result: {result.final_output}\n")
-                    handled = True
-                    break
-
-            if not handled:
-                print("Could not determine the appropriate agent. Please clarify your query.\n")
-
+            
 if __name__ == "__main__":
     asyncio.run(main())
-
